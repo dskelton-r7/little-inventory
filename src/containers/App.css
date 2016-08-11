@@ -1,0 +1,168 @@
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #23CF5F;
+}
+
+.notification {
+    background: #F1D147;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.App {
+    text-align: center;
+    background: #FAFAF9;
+    display: flex;
+    height: 100%;
+}
+
+.App-sidebar {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    height: 40px;
+    color: #fff;
+    background: #fefefe;
+    width: 15%;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #333;
+    text-align: left;
+    text-indent: 10px;
+}
+
+ul,li {
+    width: 100%;
+}
+
+.App-sidebar li {
+    height: 50%;
+}
+
+.App-sidebar li a {
+    text-decoration: none;
+    color: #FFF;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #23CF5F;
+    opacity: .75;
+}
+
+.App-sidebar li a.active {
+    opacity: 1;
+}
+
+.product-stocks {
+    text-align: right;
+}
+
+label {
+    display: flex;
+    background: #fff;
+    padding: 20px;
+    margin: 5px;
+}
+
+.Product-list li {
+    padding: 20px;
+}
+
+.Product-Form {
+    padding: 20px;
+}
+
+.Product-Form input {
+    width: 100%;
+    display: inline-block;
+    font-size: 18px;
+    padding: 20px;
+    margin: 5px;
+}
+
+.Product-Form input[type="submit"] {
+    width: 50%;
+    float: left;
+    margin: 20px;
+    background: #23CF5F;
+    border: none;
+}
+
+.productForm-container {
+    width: 85%;
+    overflow: scroll;
+}
+
+.Product-list .content {
+    margin-left: 150px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Product_inventory {
+    height: 100%;
+    width: 85%;
+    overflow: scroll;
+}
+
+img {
+    width: 140px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header {
+    background: #fff;
+    color: #23CF5F;
+    padding: 10px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Product-card {
+    position: relative;
+    background: #222;
+    padding: 20px;
+    flex: 0 1 33%;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 54px -6px rgba(209,205,209,0.41);
+    -moz-box-shadow: 10px 10px 54px -6px rgba(209,205,209,0.41);
+    box-shadow: 10px 10px 54px -6px rgba(209,205,209,0.41);
+    padding: .5rem;
+    margin: 2px 0;
+    background: rgba(255,255,255,.2);
+    overflow: hidden;
+    max-height: 140px;
+}
+
+.Product-card:nth-child(odd) {
+    background: rgba(255,255,255,.1);
+}
+
+.Product-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100px;
+}
